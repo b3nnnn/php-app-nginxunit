@@ -1,0 +1,16 @@
+{
+    "listeners": {
+        "*:8080": {
+            "pass": "applications/phpapp"
+        }
+    },
+
+    "applications": {
+        "phpapp": {
+            "type": "php",
+	    "root": "/www/",
+            "working_directory": "/www/",
+            "index": "index.php"
+        }
+    }
+}
